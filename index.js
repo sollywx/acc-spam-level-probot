@@ -69,4 +69,4 @@ client.on('messageCreate', async (message) => {
 
 
 
-client.login(config.Token || process.env.token);
+client.login(process.env.TOKEN);
